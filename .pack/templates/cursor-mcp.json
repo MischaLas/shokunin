@@ -5,8 +5,8 @@
       "args": ["-y", "@modelcontextprotocol/server-filesystem", "~"]
     },
     "fetch": {
-      "command": "npx",
-      "args": ["-y", "@modelcontextprotocol/server-fetch"]
+      "command": "mcp-fetch-server",
+      "args": []
     },
     "memory": {
       "command": "python",

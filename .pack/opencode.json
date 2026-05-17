@@ -51,11 +51,11 @@
   "mcp": {
     "filesystem": {
       "type": "local",
-      "command": ["npx", "-y", "@modelcontextprotocol/server-filesystem", "{{MCP_ROOT_PATH}}"]
+      "command": ["mcp-server-filesystem", "{{MCP_ROOT_PATH}}"]
     },
     "fetch": {
       "type": "local",
-      "command": ["npx", "-y", "@modelcontextprotocol/server-fetch"]
+      "command": ["mcp-fetch-server"]
     },
     "memory": {
       "type": "local",

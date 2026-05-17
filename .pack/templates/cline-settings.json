@@ -7,8 +7,8 @@
       "autoApprove": []
     },
     "fetch": {
-      "command": "npx",
-      "args": ["-y", "@modelcontextprotocol/server-fetch"],
+      "command": "mcp-fetch-server",
+      "args": [],
       "disabled": false,
       "autoApprove": []
     },

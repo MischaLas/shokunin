@@ -5,12 +5,12 @@
       "args": ["-y", "@modelcontextprotocol/server-filesystem", "~"]
     },
     "fetch": {
-      "command": "npx",
-      "args": ["-y", "@modelcontextprotocol/server-fetch"]
+      "command": "mcp-fetch-server",
+      "args": []
     },
     "memory": {
       "command": "python",
-      "args": ["~/.shokunin/memory/mcp-server.py"]
+      "args": ["C:/Users/mlass/.shokunin/memory/mcp-server.py"]
     }
   }
 }
